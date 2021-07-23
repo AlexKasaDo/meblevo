@@ -1,0 +1,12 @@
+<div class="comment-wrapper">
+        <div class="comment-block text-center">
+        There are no comments for this blog.
+    </div>
+    </div>
+<script type="text/javascript">
+	function setArticleId(article_id) {
+		$("#blog-reply-id").val(article_id);
+		$("#reply-remove").css('display', 'inline');
+        $('html, body').animate({scrollTop: $("#form-review").offset().top - 100 }, 500);
+	}
+</script>
